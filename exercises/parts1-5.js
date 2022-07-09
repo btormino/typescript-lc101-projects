@@ -5,22 +5,22 @@ exports.__esModule = true;
 var SpaceLocation_1 = require("./SpaceLocation");
 // Part 1: Declare (5) Variables With Type
 // const spacecraftName: string = "Determination";
-var speedMph = 17500;
+//const speedMph: number = 17500;
 var kilometersToMars = 225000000;
 var kilometersToTheMoon = 384400;
-var milesPerKilometer = 0.621;
+//const milesPerKilometer: number = 0.621;
 // Part 2: Print Days to Mars
-var milesToMars = kilometersToMars * milesPerKilometer;
-var hoursToMars = milesToMars / speedMph;
-var daysToMars = hoursToMars / 24;
+//const milesToMars: number = kilometersToMars * milesPerKilometer;
+//const hoursToMars: number = milesToMars / speedMph;
+//const daysToMars: number = hoursToMars / 24;
 // Code an output statement here (use a template literal):
 //console.log(`${spacecraftName} would take ${daysToMars} days to get to Mars.`);
 // Part 3: Create a Function ("getDaysToLocation")
-function getDaysToLocation(kilometersAway) {
-    var milesAway = kilometersAway * milesPerKilometer;
-    var hoursToLocation = milesAway / speedMph;
-    return hoursToLocation / 24;
-}
+// function getDaysToLocation(kilometersAway: number): number {
+//     const milesAway: number = kilometersAway * milesPerKilometer;
+//     const hoursToLocation: number = milesAway / speedMph;
+//     return hoursToLocation /24;
+// }
 // Move your output statement from part 2 here. Update the template literal to call
 // the function and print the outputs for a Mars trip and a moon trip.
 // console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToMars)} days to get to Mars.`);
